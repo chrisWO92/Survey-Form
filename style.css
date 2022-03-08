@@ -1,0 +1,61 @@
+body {
+    box-sizing: border-box;
+    background-color: #4B4991;
+}
+
+
+#main {
+    margin-top: 50px;
+}
+
+#title {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+#description {
+    font-size: 1.13rem;
+    font-style: italic;
+    font-weight: 200;
+}
+
+#title, #description {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#survey-form {
+    background-color: #292848;
+    color: #FFF;
+    padding: 35px;
+    border-radius: 6px;
+}
+
+label {
+    padding-top: 7px;
+}
+
+.form-check > label {
+    padding-top: 0px;
+}
+
+#current-role-label1, #current-role-label2, #recommend-label{
+    padding-top: 25px;
+}
+
+#comment-label {
+    padding-top: 20px;
+}
+
+#current-role-label1 {
+    padding-bottom: 6px;
+}
+
+#current-role-label2, #recommend-label, #comment-label {
+    padding-bottom: 7px;
+}
+
+@media (min-width: 450px) {
+    
+   
+}
